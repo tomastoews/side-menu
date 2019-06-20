@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome/all.min.css">
     <link rel="stylesheet" href="sass/main.scss">
     <title>Side-Menu</title>
 </head>
 <body>
-      
+    
+    <div id="cover"></div>
+
     <header>
         <div id="logo">
             <span class="circle"></span>
             <p>Logo</p>
         </div>
+        <div id="menu-button">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
 
     <main>
-        <h1>Blue Ocean</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae praesentium quisquam dolorum ullam quibusdam eaque!</p>
+        <div class="content">
+            <h1>Blue Ocean</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae praesentium.</p>
+        </div>
     </main>
 
     <nav>
         <div class="close">
-            <i class="fas fa-times"></i>
+            <div class="close-button">
+                <i class="fas fa-times"></i>
+            </div>
         </div>
 
         <ul class="list">
@@ -35,20 +45,21 @@
             <li><p>BLOG</p></li>
         </ul>
 
-        <div class="social">
-            <div>
-                <i class="fab fa-facebook-f"></i>
+        <div>
+            <div class="social">
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div>
+                    <i class="fab fa-instagram"></i>
+                </div>
             </div>
-            <div>
-                <i class="fab fa-twitter"></i>
+            <div class="info">
+                Andrea Peters, Hauptstra0e 123,<br/> 10247 Berlin
             </div>
-            <div>
-                <i class="fab fa-instagram"></i>
-            </div>
-        </div>
-
-        <div class="info">
-            Andrea Peters, Hauptstra0e 123, 10247 Berlin
         </div>
 
     </nav>
