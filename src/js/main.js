@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', init());
+document.addEventListener('DOMContentLoaded', init);
 
 function init() {
     const menuButton = document.querySelector('#menu-button');
